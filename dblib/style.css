@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker');
+/* CSS Document */
+
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}*/
+
+body{
+	background-image: url("../images/space3.png");
+	background-size: cover;
+}
+
+
+.logoutBtn{
+	
+}
+
+.clear{
+	margin-bottom: 30px;
+}
+
+/*.contactBg{
+	background-image: url("../images/space3.png");
+	background-size: cover;
+}*/
+
+.contactForm{
+	background: rgba(196, 196, 196, 0.5);
+	border: solid 1px white;
+	border-radius: 5px;
+}
+
+h10 {
+	font-size: 76px; 
+	color: rgb(255,255,255);
+	margin-top: 0.25%;
+	
+	font-family: 'Permanent Marker', cursive;
+	
+	/*-webkit-text-fill-color: rgb(0, 0, 0);
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;*/
+	
+    /*text-shadow:
+    3px 0 0 #fff, 0 -2px 0 #fff, 0 2px 0 #fff, -2px 0 0 #fff;*/
+
+}
+
+h1 {
+	font-size: 54px; 
+	color: rgb(255,255,255);
+	font-family: 'Permanent Marker', cursive;
+}
+
+.loginlabel{
+	font-size: 18px; 
+	color: rgb(255,255,255);
+	font-family: 'Open Sans', sans-serif;
+}
+
+p1 {
+	font-size: 24px;
+	color: rgb(255,255,255);
+	-webkit-text-stroke-width: 0px;	
+	-webkit-text-fill-color: rgb(255,255,255);
+}
+
+p2 {
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(255,255,255);
+	-webkit-text-stroke-width: 0px;	
+	-webkit-text-fill-color: rgb(255,255,255);
+	padding-bottom: 5px;
+}
+
+
+#topbit {	
+	background-color: black;
+	/*padding-top: 0.5%;*/
+	margin-bottom: 1%;
+}
+
+#menu {
+	/*background-color: black;
+	outline-color: rgb(100,100,100);
+	outline-width: 2px;
+	outline-style: auto;*/
+}
+
+#logo {
+	padding-left: 1%;
+	padding-right: 1%;	
+	padding-top: 0%;
+	padding-bottom: 0.5%;
+	/*background-color: black;*/
+}
+
+
+/* -------------------------- linkbar ----------------------------------- */
+ul.linkbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(00,00,00);
+	border: 2px solid black;
+}
+
+ul.linkbar li {
+	float: left;
+}
+
+ul.linkbar li a {
+	background-color: white;
+    display: inline-block;
+    color: black;
+    text-align: center;
+	/*border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;*/
+	padding: 5px 50px;
+    text-decoration: none;
+    font-size: 16px;
+	font-weight: bold;
+}
+
+ul.linkbar li a:hover {
+	/*background-color: black;*/
+	background-image: url("../images/spacebutton.png");
+	color: white;
+	}
+	
+ul.linkbar li a:active{
+	background-color: blue;
+}
+/* -------------------------- linkbar end ----------------------------------- */
+
+/* -------------------------- FOOTER ----------------------------------- */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.footerText{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* -------------------------- FOOTER END ----------------------------------- */
