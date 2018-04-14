@@ -4,7 +4,7 @@
 	 
 <html>
 <head>
-	<title>Contact - Atomic</title>
+	<title>Atomic Games - Contact</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
@@ -20,39 +20,39 @@
 		  <div class="col-sm-3"></div>
 		  <div class="col-sm-6 contactForm">
 			<h2>Contact Us</h2>
-			<p>Feel free to contact us to leave any feedback or to report any issues.</p>
+			<p class="textAG">Feel free to contact us to leave any feedback or to report any issues.</p>
 			
 			<h3>Submit some feedback :</h3>
 			  <form>
 				<div class="form-group">
-				  <label for="email">Username:</label>
-				  <input type="email" class="form-control" id="email" placeholder="Enter username">
+				  <label class="textAG" for="email">Username:</label>
+				  <input class="form-control" id="email" placeholder="Enter username" required>
 				</div>
 				<div class="form-group">
-				  <label for="sub">Subject:</label>
-				  <input class="form-control" id="sub" placeholder="Enter Subject">
+				  <label class="textAG" for="sub">Subject:</label>
+				  <input class="form-control" id="sub" placeholder="Enter Subject" required>
 				</div>
 				<div class="form-group">
-				  <label for="fb">Feedback:</label>
-				  <textarea rows="4" class="form-control" id="fb" placeholder="Leave your feedback here"></textarea>
+				  <label class="textAG" for="fb">Feedback:</label>
+				  <textarea rows="4" class="form-control" id="fb" placeholder="Leave your feedback here" required></textarea>
 				</div>
 				<button type="submit" class="btn btn-default">Submit</button>
 			  </form>
 			  <div class="clear"></div>
 			  <h3>Email us :</h3>
-			  <p>Click on the link here to send us an email</p>
-			  <p><a href="mailto:atomicgamesuos@gmail.com?Subject=Atomic%20Games%20Feedback" target="_top">Send Email</a></p>
+			  <p class="textAG">Click on the link below to send us a feedback email</p>
+			  <p class="textAG"><a href="mailto:atomicgamesuos@gmail.com?Subject=Atomic%20Games%20Feedback" target="_top">Send Email</a></p>
+			  <p class="textAG">If that doesn't work, our email is atomicgamesuos@gmail.com</p>
 		  </div>
 		  <div class="col-sm-3"></div>
 		</div>
+		<div class="clear"></div>
 		
 <?php if (isset($_SESSION['loggedOn']) && $_SESSION['loggedOn'] == 1) {
 	?>
-		<p>
-			<form  method="POST" action="../index.php">			     
-				<button class="w3-btn btn-default w3-pink logoutBtn" type="submit" name="signout" value="signout">Logout</button>		  
-		    </form>
-		</p>	
+<?php
+	include_once("../content/footer.php");
+?>
 		
 
 <?php

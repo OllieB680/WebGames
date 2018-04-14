@@ -12,7 +12,7 @@ if ( isset($_SESSION['loggedOn']) && $_SESSION['loggedOn']  == 1 )
 			$data = route($url, "GET", $get_data);
 			//$data = route($url);
 			
-			include_once("view/leaderboard_view.php");
+			include_once("../view/leaderboard_view.php");
 			
 			//include_once("view/form_view.php");
 		}

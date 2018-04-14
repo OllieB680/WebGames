@@ -1,38 +1,27 @@
 Initialize engine version: 5.5.1f1 (88d00a7498cd)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon (TM) R9 200 Series (ID=0x6811)
-    Vendor:   ATI
-    VRAM:     2028 MB
-    Driver:   23.20.15002.11
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   22.20.16.4749
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.130 seconds
-Platform assembly: C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Dominic\Documents\University NEW\GameUni\FinalGame_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 144Hz; virtual: 3840x1080 at -1920,0
+Platform assembly: F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.073 seconds
+Platform assembly: F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\Industry Project\USBWebserver Final\root\GameUni\FinalGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 0.887523 ms
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2f38 -> priority: 1 
-  Thread -> id: 61c -> priority: 1 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.293640 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 888.
-Total: 0.250034 ms (FindLiveObjects: 0.041054 ms CreateObjectMapping: 0.025944 ms MarkObjects: 0.171061 ms  DeleteObjects: 0.007127 ms)
-

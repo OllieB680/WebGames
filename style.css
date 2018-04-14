@@ -15,6 +15,16 @@ body{
 	background-size: cover;
 }
 
+.gameWindow{
+	width: 1000px;
+	height: 500px;
+}
+
+.gameControls{
+	font-size: 20px;
+	padding-left: 20px;
+}
+
 
 .logoutBtn{
 	
@@ -57,6 +67,16 @@ h1 {
 	font-family: 'Permanent Marker', cursive;
 }
 
+.sectionTitle {
+	color: black;
+	margin-left: 10px;
+}
+
+.textAG{
+	font-size: 20px;
+	color: black;
+}
+
 .loginlabel{
 	font-size: 18px; 
 	color: rgb(255,255,255);
@@ -83,7 +103,7 @@ p2 {
 #topbit {	
 	background-color: black;
 	/*padding-top: 0.5%;*/
-	padding-bottom: 1%;
+	margin-bottom: 1%;
 }
 
 #menu {
@@ -96,7 +116,7 @@ p2 {
 #logo {
 	padding-left: 1%;
 	padding-right: 1%;	
-	padding-top: 0.5%;
+	padding-top: 0%;
 	padding-bottom: 0.5%;
 	/*background-color: black;*/
 }
@@ -131,12 +151,14 @@ ul.linkbar li a {
 }
 
 ul.linkbar li a:hover {
-	background-color: black;
+	/*background-color: black;*/
+	background-image: url("../images/spacebutton.png");
 	color: white;
 	}
 	
 ul.linkbar li a:active{
-	background-color: blue;
+	background-image: url("../images/spacebutton.png");
+	color: white;
 }
 /* -------------------------- linkbar end ----------------------------------- */
 
