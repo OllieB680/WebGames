@@ -16,10 +16,13 @@
 </head>
 
 <body class="contactBg">
+
+	<h1 style="text-align:center;">Contact Us</h1>
+		<div class="clear"></div>
+
 		<div class="row" style="margin-top:15px;">
-		  <div class="col-sm-3"></div>
-		  <div class="col-sm-6 contactForm">
-			<h2>Contact Us</h2>
+		  <div class="col-sm-2"></div>
+		  <div class="col-sm-8 contactForm">
 			<p class="textAG">Feel free to contact us to leave any feedback or to report any issues.</p>
 			
 			<h3>Submit some feedback :</h3>
@@ -44,7 +47,7 @@
 			  <p class="textAG"><a href="mailto:atomicgamesuos@gmail.com?Subject=Atomic%20Games%20Feedback" target="_top">Send Email</a></p>
 			  <p class="textAG">If that doesn't work, our email is atomicgamesuos@gmail.com</p>
 		  </div>
-		  <div class="col-sm-3"></div>
+		  <div class="col-sm-2"></div>
 		</div>
 		<div class="clear"></div>
 		

@@ -15,16 +15,24 @@ body{
 	background-size: cover;
 }
 
+.contentText{
+	font-size: 17px;
+	padding: 5px;
+}
+
 .gameWindow{
 	width: 1000px;
 	height: 500px;
 }
 
 .gameControls{
-	font-size: 20px;
+	font-size: 18px;
 	padding-left: 20px;
 }
 
+.buttonsAG:hover{
+	background-color: #c4c4c4;
+}
 
 .logoutBtn{
 	
@@ -62,6 +70,12 @@ h10 {
 }
 
 h1 {
+	font-size: 54px; 
+	color: rgb(255,255,255);
+	font-family: 'Permanent Marker', cursive;
+}
+
+.title{
 	font-size: 54px; 
 	color: rgb(255,255,255);
 	font-family: 'Permanent Marker', cursive;

@@ -23,16 +23,18 @@
 
 <?php if (isset($_SESSION['loggedOn']) && $_SESSION['loggedOn'] == 1) {
 	?>
-			
+		<h1 style="text-align:center;">Leaderboards</h1>
+		<div class="clear"></div>
+		
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-2"></div>
+				<div class="col-sm-1"></div>
 				
-				<div class="col-sm-8">
+				<div class="col-sm-10">
 				<?php include_once("../controller/read_scores.php");?>
 				</div>
 				
-				<div class="col-sm-2"></div>
+				<div class="col-sm-1"></div>
 			</div>
 		</div>
 
